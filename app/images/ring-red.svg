@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="44px" viewBox="0 0 45 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>ring-red</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-90.2776773%" y1="50.5147327%" x2="97.0921354%" y2="-89.5220806%" id="linearGradient-1">
+            <stop stop-color="#F25E4E" offset="0%"></stop>
+            <stop stop-color="#B8367A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1031.000000, -773.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="ring-red" transform="translate(1031.000000, 773.000000)">
+                <path d="M0.8397,25.4921 C-1.72505,9.7048 12.9776,-3.40143 28.3677,0.95312 L28.3677,0.95312 C44.9678,5.65 49.84,26.8246 36.962,38.3043 L36.962,38.3043 C24.084,49.784 3.6061,42.5207 0.8397,25.4921 L0.8397,25.4921 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,130 @@
+.footer {
+  position: relative;
+  background-color: #233142;
+  padding-top: 39px;
+  padding-bottom: 88px;
+  @media (min-width: 768px) {
+    padding-top: 68px;
+    padding-bottom: 58px;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    width: 115%;
+    height: 200px;
+    z-index: -1;
+    background-color: #233142;
+    top: -15px;
+    transform: rotate(175.8deg);
+    @media (min-width: 376px) {
+      top: -33px;
+    }
+    @media (min-width: 768px) {
+      top: -53px;
+    }
+    @media (min-width: 1350px) {
+      top: -105px;
+    }
+  }
+  &__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 44px;
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 57px;
+    }
+  }
+  &__top,
+  &__extra a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.105;
+    color: #fff;
+  }
+  &__bottom {
+    display: flex;
+    justify-content: center;
+  }
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 100%;
+    @media (min-width: 768px) {
+      width: auto;
+      display: block;
+      margin-bottom: 0;
+      text-align: left;
+    }
+    p {
+      span {
+        display: block;
+      }
+    }
+  }
+  &__logo {
+    display: inline-block;
+    margin-bottom: 6px;
+    @media (min-width: 768px) {
+      margin-bottom: 13px;
+    }
+    img {
+      width: 124px;
+      height: 48px;
+    }
+  }
+  &__right {
+    width: 100%;
+    text-align: center;
+    @media (min-width: 768px) {
+      width: auto;
+      margin-top: 11px;
+      text-align: right;
+    }
+  }
+  &__email {
+    margin-bottom: 38px;
+    @media (min-width: 768px) {
+      margin-bottom: 27px;
+    }
+    a {
+      color: #00deff;
+      text-decoration: underline !important;
+      transition: 0.3s;
+      &:hover {
+        text-decoration: none !important;
+        transition: 0.3s;
+      }
+    }
+  }
+  &__extra {
+    a {
+      display: block;
+      text-decoration: underline !important;
+      transition: 0.3s;
+      @media (min-width: 768px) {
+        display: inline-block;
+      }
+      &:hover {
+        text-decoration: none !important;
+        color: #00deff;
+        transition: 0.3s;
+      }
+    }
+    a:nth-of-type(1) {
+      margin-bottom: 38px;
+      @media (min-width: 768px) {
+        margin-right: 32px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

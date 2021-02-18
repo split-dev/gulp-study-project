@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>ring-violet</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="185.455022%" y1="85.8236551%" x2="-31.4872343%" y2="172.531578%" id="linearGradient-1">
+            <stop stop-color="#7A4A9D" offset="0%"></stop>
+            <stop stop-color="#503893" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-810.000000, -817.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="ring-violet" transform="translate(810.000000, 817.000000)">
+                <path d="M44.0363,25.0289 C42.4276,40.9421 24.8339,49.7964 11.0952,41.607 C-3.72368,32.7737 -2.94944,11.0596 12.4609,3.30412 C27.8712,-4.45134 45.7715,7.86457 44.0363,25.0289 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

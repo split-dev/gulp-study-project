@@ -1,0 +1,276 @@
+.contact {
+  &__content {
+    position: relative;
+    padding-top: 122px;
+    padding-bottom: 147px;
+    @media (min-width: 768px) {
+      padding-top: 158px;
+    }
+    @media (min-width: 992px) {
+      padding-top: 168px;
+      padding-bottom: 141px;
+    }
+    @media (min-width: 1350px) {
+      padding-top: 240px;
+      padding-bottom: 240px;
+    }
+  }
+  .tria-blue {
+    top: 11.68%; /*107*/
+    left: -2.887%; /*-31*/
+    @media (max-width: 991px) {
+      width: 58px;
+      height: 61px;
+      top: 3.652%; /*28px*/
+      left: 1.16%; /*4px*/
+    }
+  }
+  .ring-blue-small {
+    top: 39.3%; /*360*/
+    left: -5.21%; /*56*/
+    @media (max-width: 991px) {
+      top: 22.67%; /*175px*/
+      left: -2.32%; /*8px*/
+    }
+  }
+  .tria-red {
+    top: 43.14%;/*395*/
+    right: -6.146%; /*66*/
+    @media (max-width: 991px) {
+      width: 62px;
+      height: 55px;
+      top: 14.9%;/*115px*/
+      right: -7.5%;/*25.8px*/
+    }
+  }
+  .tria-violet {
+    bottom: 17.03%; /*156*/
+    left: 10.522%; /*113*/
+    @media (max-width: 991px) {
+      bottom: 17.5%;/*135px*/
+      left: -8.99%;/*31px*/
+    }
+  }
+  .ring-blue-big {
+    bottom: 14.63%;/*134*/
+    right: -3.35%;/*36*/
+
+    @media (max-width: 767px) {
+      bottom: 7.92%;/*47px*/
+    }
+    @media (max-width: 375px) {
+
+      bottom: 5.92%;/*47px*/
+      right: 2.61%;/*9px*/
+    }
+    @media (max-width: 991px) {
+      width: 35px;
+      height: 35px;
+    }
+  }
+
+  h2 {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    margin: 0 auto 54px;
+    @media (min-width: 992px) {
+      max-width: 492px;
+      margin: 0 auto 70px;
+    }
+  }
+  &__form-wrap {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 42px 15px 32px;
+    background-color: #233142;
+    @media (min-width: 992px) {
+      max-width: 656px;
+      padding: 50px 15px 69px;
+    }
+  }
+  form {
+    width: 100%;
+    @media (min-width: 992px) {
+      max-width: 328px;
+    }
+  }
+  input,
+  select,
+  button {
+    width: 100%;
+  }
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-transition-delay: 99999s;
+  }
+  &__form-field {
+    position: relative;
+    margin-bottom: 22px;
+    label, input {
+      transition: all 0.2s;
+      touch-action: manipulation;
+    }
+    label {
+      position: absolute;
+      top: -10px;
+      left: 15px;
+      display: inline-block;
+      background: #233142;
+      padding: 0 4px;
+      font-size: 12px;
+      letter-spacing: 0.4px;
+      color: #fff;
+      line-height: 1.4;
+
+    }
+    input {
+      padding: 12px 18px;
+      border: 1px solid #ffffff;
+      border-radius: 0;
+      background-color: #233142;
+      font-family: inherit;
+      font-size: inherit;
+      color: #fff;
+      letter-spacing: 0.15px;
+      line-height: 1.5;
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) { //IE
+        padding-top: 9px;
+        padding-bottom: 15px;
+      }
+    }
+    input[type=text]::-ms-clear { display: none; width : 0; height: 0; }
+    input::-webkit-input-placeholder {
+      font-family: inherit;
+      font-size:  inherit;
+      font-weight: inherit;
+      color: #979797;
+      letter-spacing: 0.15px;
+      line-height: 1.5;
+    }
+    input::-moz-placeholder {
+      font-family: inherit;
+      font-size:  inherit;
+      font-weight: inherit;
+      color: #979797;
+      letter-spacing: 0.15px;
+      line-height: 1.5;
+    }
+    input:-ms-input-placeholder {
+      font-family: inherit;
+      font-size:  inherit;
+      font-weight: inherit;
+      color: #233142;
+      letter-spacing: 0.15px;
+      line-height: 1.5;
+      //opacity: 0;
+      transition: inherit;
+    }
+    input:focus {
+      outline: 0;
+    }
+    /**
+  * Translate down and scale the label up to cover the placeholder,
+  * when following an input (with placeholder-shown support).
+  * Also make sure the label is only on one row, at max 2/3rds of the
+  * field—to make sure it scales properly and doesn't wrap.
+  */
+    input:invalid + label {
+      cursor: text;
+      max-width: 66.66%;
+      white-space: nowrap;
+      //overflow: hidden;
+      text-overflow: ellipsis;
+      transform-origin: left bottom;
+      transform: translate(0, 29px) scale(1.3);
+      color: #979797;
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) { //IE
+        transform: translate(0, 26px) scale(1.3);
+      }
+    }
+
+    /**
+    * By default, the placeholder should be transparent. Also, it should
+    * inherit the transition.
+    */
+    ::-webkit-input-placeholder {
+      opacity: 0;
+      transition: inherit;
+    }
+    ::-moz-placeholder {
+      opacity: 0;
+      transition: inherit;
+    }
+
+    /**
+    * Show the placeholder when the input is focused.
+    */
+    input:focus::-webkit-input-placeholder {
+      opacity: 1;
+    }
+    input:focus::-moz-placeholder {
+      opacity: 1;
+    }
+      /**
+      * When the element is focused, remove the label transform.
+      * Also, do this when the placeholder is _not_ shown, i.e. when
+      * there's something in the input at all.
+      */
+    input:not(:invalid) + label,
+    input:focus + label {
+      transform: translate(0, 0) scale(1);
+      cursor: pointer;
+      color: #fff;
+    }
+  }
+  button {
+    cursor: pointer;
+  }
+  .select2-container {
+    width: 100% !important;
+    padding: 12px 37px 12px 18px;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    background-color: #233142;
+    margin-bottom: 22px;
+  }
+  .select2-selection {
+    border: none !important;
+    background-color: #233142;
+    outline: none !important;
+  }
+  .select2-selection__placeholder {
+    font-family: inherit;
+    font-size: 16px;
+    color:  #979797 !important;
+    letter-spacing: 0.15px;
+    line-height: 1.5;
+  }
+  .select2-container .select2-selection--single {
+    height: 24px !important;
+  }
+  .select2-selection__rendered {
+    padding: 0 !important;
+    font-size: 16px;
+    color:  #ffffff !important;
+    line-height: 1.5 !important;
+  }
+  .select2-selection__arrow {
+    width: 10px !important;
+    right: 17px !important;
+    top: 50% !important;
+    transform: translateY(-50%);
+    b {
+      border-width: 5px 5px 0 5px !important;
+      border-top-color: #fff !important;
+    }
+  }
+}
+

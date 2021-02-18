@@ -1,0 +1,127 @@
+// 2. Intro Styles
+.intro {
+  overflow-x: hidden;
+  padding-top: 72px;
+  @media (min-width: 992px) {
+    padding-top: 90px;
+  }
+  &__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 108px;
+    padding-bottom: 241px;
+    @media (min-width: 992px) {
+      padding-top: 144px;
+      padding-bottom: 223px;
+    }
+  }
+  h1 {
+    margin-bottom: 38px;
+    @media (min-width: 992px) {
+      max-width: 854px;
+      margin-bottom: 48px;
+    }
+    span {
+      @media (min-width: 992px) {
+        display: block;
+      }
+    }
+  }
+  p {
+    max-width: 467px;
+    line-height: 1.40625;
+    margin-bottom: 32px;
+    @media (min-width: 992px) {
+      font-size: 20px;
+      line-height: 1.4;
+      margin-bottom: 48px;
+    }
+  }
+  &__btns {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    @media (min-width: 375px) {
+      flex-direction: row;
+      width: auto;
+    }
+  }
+  a {
+    width: 100%;
+    @media (min-width: 375px) {
+      width: auto
+    }
+  }
+  a:nth-of-type(1) {
+    margin-bottom: 16px;
+    @media (min-width: 375px) {
+      margin-right: 16px;
+      margin-bottom: 0;
+    }
+    @media (min-width: 992px) {
+      margin-right: 32px;
+    }
+  }
+
+  .tria-blue {
+    top: -0.435%; /*-3px;*/
+    left: 55.6%;
+    @media (max-width: 991px) {
+      width: 34px;
+      height: 35px;
+      top: -9.6%;
+      left: 55.1%;
+    }
+    @media (max-width: 374px) {
+      top: -6.6%;
+    }
+  }
+  .ring-blue {
+    top: 16.21%; /*112px;*/
+    right: -2.328%; /*-25px*/
+    @media (max-width: 991px) {
+      top: 2.96%;
+      right: 2.03%;
+    }
+  }
+  .ring-red {
+    top: 47.91%; /*331px;*/
+    left:-9.964%; /*-107px;*/
+    @media (max-width: 1100px) {
+      left: -5.964%;
+    }
+    @media (max-width: 991px) {
+      top: 5.499%;
+      left: -9.56%;
+    }
+  }
+  .tria-violet {
+    top: 32.996%; /*228px;*/
+    right: -10.429%; /*-112px;*/
+    @media (max-width: 991px) {
+      width: 83px;
+      height: 79px;
+      top: 67%;
+      right: -5.5%;
+    }
+    @media (max-width: 374px) {
+      top: 72%;
+    }
+  }
+  .tria-blue-green {
+    bottom: 0.29%; /*2px;*/
+    left: 3.539%; /*38px;*/
+    @media (max-width: 991px) {
+      width: 71px;
+      height: 67px;
+      bottom: 5.07%;
+      left: 4.35%;
+    }
+    @media (min-width: 1350px) {
+      bottom: 7.29%;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="65px" viewBox="0 0 64 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>tria-blue</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-55.2901593%" y1="40.0663329%" x2="69.1553638%" y2="-56.4962676%" id="linearGradient-1">
+            <stop stop-color="#0ABEFF" offset="0%"></stop>
+            <stop stop-color="#0164FA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1112.000000, -959.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="tria-blue" transform="translate(1112.000000, 959.000000)">
+                <path d="M0.6112,12.2518 C-0.9518,4.7141 6.2311,-1.6889 13.5404,0.7264 L56.7097,14.9912 C64.0189,17.4065 65.9727,26.8286 60.2263,31.9509 L26.288,62.2042 C20.5417,67.3266 11.4051,64.3075 9.8421,56.7699 L0.6112,12.2518 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
