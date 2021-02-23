@@ -10,7 +10,7 @@ const { src, dest, watch, series, parallel } = require('gulp'),
     uglify       = require('gulp-uglify'),
     postcss      = require('gulp-postcss'),
     autoprefixer = require('autoprefixer'),
-    replace = require('gulp-replace');
+    replace      = require('gulp-replace');
 
 // File paths
 const files = {
@@ -27,6 +27,8 @@ gulp.task('watch', function () {
       baseDir: 'public',
     },
   });
+
+  browserSync.watch('app/').on('change', browserSync.reload);
 });
 
 //Copying assets
@@ -55,7 +57,8 @@ gulp.task('scssTask', function () {
     .pipe(postcss([autoprefixer()]))
     .pipe(cssmin())
     .pipe(rename('style.min.css'))
-    .pipe(dest('public/css'));
+    .pipe(dest('public/css'))
+    .pipe(browserSync.stream({stream: true}));
 });
 
 // JS task: concatenates and uglifies JS files to script.js
