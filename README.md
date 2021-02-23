@@ -12,7 +12,7 @@ You can read that on my blog [here](https://coder-coder.com/gulp-4-walk-through)
 
 * Clone or download this Git repo onto your computer.
 * Install [Node.js](https://nodejs.org/en/) if you don't have it yet.
-* Run `npm install`
+* Run `yarn install` to install all modules
 * Run `gulp` to run the default Gulp task
 
 In this proejct, Gulp is configured to run the following functions:
