@@ -1,4 +1,6 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "_fonts.scss";
+@import "mixins.scss";
 
 //@import 'reset';
 //@import 'variables';
@@ -16,5 +18,81 @@
 //@import 'components/feedback';
 //@import 'components/contact';
 //@import 'components/footer';
+
+
+body{
+    // position: relative;
+
+    .main{
+        .header{
+            box-shadow: 0 10px 16px 0 rgba(211, 209, 209, 0.21);
+            
+            .logo{
+                margin: 23px 0;
+                
+                img{
+                    margin-bottom: 0;
+                }
+            }
+            .menu{
+                margin-bottom: 0;
+                
+                .menu__list{
+                    margin-bottom: 0;
+                    float: right;
+                    .menu__list-item{
+                        list-style: none;
+                        display: inline-block;
+                        padding: 25px 14px;
+                        margin: 0;
+                        
+                        &:hover{
+                            background-color:#F8F9FC;
+                            box-shadow: 0 6px 1px 0 #F8F9FC;
+                        }
+
+                        .menu__list-link{
+                            text-decoration: none;
+                            color: #8ACD1D;
+                            @include font($n,14px,600);
+                        }
+                    }
+                }
+            }
+        }
+
+        .main__content{
+            
+            .main__text{
+                
+                .main__title{
+                    margin-top: 150px;//no work
+                }
+                .main__information{
+                    
+                }
+                .button{}
+            }
+            .main__picture{
+                
+                .main__picture-peoples{
+                    margin-top: 70px;//no work
+                }
+            }
+        }
+    }
+
+    // .options{
+    //     .options__title{
+    //         h1{}
+    //     }
+    //     .options__list{
+    //         .options__item{
+    //             img{}
+    //             p{}
+    //         }
+    //     }
+    // }
+}
 
 
