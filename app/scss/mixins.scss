@@ -1,0 +1,10 @@
+// @import "_fonts.scss";
+
+$p : 'Poppins';
+$n : 'Proxima Nova Cn Rg';
+
+@mixin font ($f,$s,$w){
+    font-family: $f;
+    font-size: $s;    
+    font-weight: $w;
+}
